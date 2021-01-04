@@ -9,4 +9,4 @@ RUN apt-get update && apt-get install -y gcc g++ make python \
   libpango-1.0-0 libpangocairo-1.0-0 libstdc++6 libx11-6 libx11-xcb1 \
   libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxss1 libxtst6 \
   libappindicator1 libnss3 libasound2 libatk1.0-0 libc6 ca-certificates \
-  fonts-liberation lsb-release xdg-utils wget
+  fonts-liberation lsb-release xdg-utils wget && rm -rf /var/lib/apt/lists/*
