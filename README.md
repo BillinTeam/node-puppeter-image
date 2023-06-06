@@ -18,5 +18,5 @@ $ docker pull ghcr.io/billinteam/node-puppeter-image:2.8
 
 # To generate a new package
     1 - Modify Dockerfile with the needed version and apt-get installations.
-    2 - Modifi the last line at '.github/workflows/publish.yml' to provide the version number.
+    2 - Modify the last line at '.github/workflows/publish.yml' to provide the version number.
     3 - Commit and push over main branch.
