@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-      - feat
+      - feat/node-16
   schedule:
     - cron: '0 8 * * *'
 
