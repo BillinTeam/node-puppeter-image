@@ -10,10 +10,10 @@ Use a NodeJs 14.x image
 $ docker pull ghcr.io/billinteam/node-puppeter-image:latest
 ````
 
-## 2.8
+## 2.9
 Use a NodeJs 16.x image
 ```
-$ docker pull ghcr.io/billinteam/node-puppeter-image:2.8
+$ docker pull ghcr.io/billinteam/node-puppeter-image:2.9
 ````
 
 # To generate a new package
