@@ -10,3 +10,5 @@ RUN apt-get update && apt-get install -y default-jre gcc g++ make python \
   libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxss1 libxtst6 \
   libappindicator1 libnss3 libasound2 libatk1.0-0 libc6 ca-certificates \
   fonts-liberation lsb-release xdg-utils wget ghostscript && rm -rf /var/lib/apt/lists/*
+
+RUN sed -i 's/^.*policy.*coder.*none.*PDF.*//' /etc/ImageMagick-6/policy.xml
