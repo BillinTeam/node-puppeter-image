@@ -5,15 +5,22 @@ Simple node + puppeter ready docker image
 
 # Existing Packages
 ## Lastest
-Use a NodeJs 14.x image
+Use a NodeJs 20.x image
 ```
 $ docker pull ghcr.io/billinteam/node-puppeter-image:latest
 ````
 
-## 2.9
+## 2.20
+Use a NodeJs 20.x image
+```
+$ docker pull ghcr.io/billinteam/node-puppeter-image:2.20
+````
+
+
+## 2.10
 Use a NodeJs 16.x image
 ```
-$ docker pull ghcr.io/billinteam/node-puppeter-image:2.9
+$ docker pull ghcr.io/billinteam/node-puppeter-image:2.10
 ````
 
 # To generate a new package
