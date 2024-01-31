@@ -10,7 +10,7 @@ Use a NodeJs 20.x image
 $ docker pull ghcr.io/billinteam/node-puppeter-image:latest
 ````
 
-## 2.20
+## 2.20.1
 Use a NodeJs 20.x image
 ```
 $ docker pull ghcr.io/billinteam/node-puppeter-image:2.20
