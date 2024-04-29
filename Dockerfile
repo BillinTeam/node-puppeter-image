@@ -12,3 +12,6 @@ RUN apt-get update && apt-get install -y default-jre gcc g++ make python-is-pyth
   fonts-liberation lsb-release xdg-utils wget ghostscript && rm -rf /var/lib/apt/lists/*
 
 RUN sed -i 's/^.*policy.*coder.*none.*PDF.*//' /etc/ImageMagick-6/policy.xml
+
+RUN sed -i 's/<policy.*domain="resource".*name="height".*value="16KP"\/>/<policy domain="resource" name="height" value="1MP" \/>/' /etc/ImageMagick-6/policy.xml
+RUN sed -i 's/<policy.*domain="resource".*name="width".*value="16KP"\/>/<policy domain="resource" name="width" value="1MP" \/>/' /etc/ImageMagick-6/policy.xml
